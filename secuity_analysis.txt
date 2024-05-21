@@ -1,0 +1,64 @@
+Unique Issues and their counts:
+B101:assert_used: 13138
+B311:blacklist: 1
+B301:blacklist: 28
+B608:hardcoded_sql_expressions: 13
+B404:blacklist: 8
+B603:subprocess_without_shell_equals_true: 23
+B607:start_process_with_partial_path: 11
+B403:blacklist: 12
+B110:try_except_pass: 4
+B310:blacklist: 1
+B701:jinja2_autoescape_false: 3
+B405:blacklist: 7
+B408:blacklist: 1
+B318:blacklist: 1
+B410:blacklist: 9
+B320:blacklist: 4
+B314:blacklist: 2
+B307:blacklist: 16
+B113:request_without_timeout: 1
+B108:hardcoded_tmp_directory: 1
+
+Severity counts:
+Low: 13214
+Medium: 67
+High: 3
+
+Issue to Severity mapping:
+B101:assert_used: Low
+B311:blacklist: Low
+B301:blacklist: Medium
+B608:hardcoded_sql_expressions: Medium
+B404:blacklist: Low
+B603:subprocess_without_shell_equals_true: Low
+B607:start_process_with_partial_path: Low
+B403:blacklist: Low
+B110:try_except_pass: Low
+B310:blacklist: Medium
+B701:jinja2_autoescape_false: High
+B405:blacklist: Low
+B408:blacklist: Low
+B318:blacklist: Medium
+B410:blacklist: Low
+B320:blacklist: Medium
+B314:blacklist: Medium
+B307:blacklist: Medium
+B113:request_without_timeout: Medium
+B108:hardcoded_tmp_directory: Medium
+
+Confidence counts:
+
+Location counts:
+
+CWE counts:
+CWE-703: 13142
+CWE-330: 1
+CWE-502: 40
+CWE-89: 13
+CWE-78: 58
+CWE-22: 1
+CWE-94: 3
+CWE-20: 24
+CWE-400: 1
+CWE-377: 1
